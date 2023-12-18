@@ -1,0 +1,427 @@
+[
+  {
+    "id": "56468ff158e85d48b0d04faa35a86461",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T21:05:23Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:08:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:08:06Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 31
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16807f51a2a89040e6573ff24bfcd9ab",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T21:26:52Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "edf4b851aa6966ddaf3591129ed9164d",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2023-12-17T23:00:00Z",
+    "home_team": "Iowa State Cyclones",
+    "away_team": "Florida A&M Rattlers",
+    "bookmakers": []
+  },
+  {
+    "id": "4b54d963e5c7d5bd422cb0cfaf7d41b0",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2023-12-17T23:00:00Z",
+    "home_team": "Texas Southern Tigers",
+    "away_team": "Howard Bison",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:21:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:21:43Z",
+            "outcomes": [
+              {
+                "name": "Howard Bison",
+                "price": 2.05
+              },
+              {
+                "name": "Texas Southern Tigers",
+                "price": 1.74
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "38febabc062e63c997411af779878296",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2023-12-17T23:08:38Z",
+    "home_team": "Carolina Hurricanes",
+    "away_team": "Washington Capitals",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:22:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:22:05Z",
+            "outcomes": [
+              {
+                "name": "Carolina Hurricanes",
+                "price": 1.19
+              },
+              {
+                "name": "Washington Capitals",
+                "price": 4.6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9bca2164eda0bf4d19ee06e395fd3074",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2023-12-18T00:08:07Z",
+    "home_team": "New Jersey Devils",
+    "away_team": "Anaheim Ducks",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:22:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:22:05Z",
+            "outcomes": [
+              {
+                "name": "Anaheim Ducks",
+                "price": 3.1
+              },
+              {
+                "name": "New Jersey Devils",
+                "price": 1.36
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "54a7ff3439b3c5a0f5fd6e9eebf063b3",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2023-12-18T00:10:31Z",
+    "home_team": "Milwaukee Bucks",
+    "away_team": "Houston Rockets",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:21:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:21:58Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 2.54
+              },
+              {
+                "name": "Milwaukee Bucks",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3244dadae2047ed37a4253d03a7d9f9f",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2023-12-18T01:00:00Z",
+    "home_team": "Colorado Avalanche",
+    "away_team": "San Jose Sharks",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:22:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:22:05Z",
+            "outcomes": [
+              {
+                "name": "Colorado Avalanche",
+                "price": 1.34
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f6c6880d0320ce10434ba811106172d2",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2023-12-18T01:00:00Z",
+    "home_team": "Vegas Golden Knights",
+    "away_team": "Ottawa Senators",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:22:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:22:05Z",
+            "outcomes": [
+              {
+                "name": "Ottawa Senators",
+                "price": 2.5
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 1.56
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "76276366ebb610e921b3453146a8220b",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2023-12-18T01:00:00Z",
+    "home_team": "Seattle Redhawks",
+    "away_team": "Washington Huskies",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:21:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:21:43Z",
+            "outcomes": [
+              {
+                "name": "Seattle Redhawks",
+                "price": 2.8
+              },
+              {
+                "name": "Washington Huskies",
+                "price": 1.46
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bd5808b47fafc02bc0f70e77a011ae88",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2023-12-18T01:10:00Z",
+    "home_team": "Phoenix Suns",
+    "away_team": "Washington Wizards",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:21:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:21:58Z",
+            "outcomes": [
+              {
+                "name": "Phoenix Suns",
+                "price": 1.12
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "89e5efd7cfa4a336f328dc372458c1aa",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-18T01:23:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:22:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:22:16Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.46
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2fedeb2f945e92599e0eb840acbb6b76",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2023-12-18T01:30:00Z",
+    "home_team": "América",
+    "away_team": "Tigres",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:21:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:21:35Z",
+            "outcomes": [
+              {
+                "name": "América",
+                "price": 1.67
+              },
+              {
+                "name": "Tigres",
+                "price": 5.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8f6169dbd221c3254030ea333d8c772c",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2023-12-18T01:30:00Z",
+    "home_team": "Jackson St Tigers",
+    "away_team": "North Carolina A&T Aggies",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:21:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:21:43Z",
+            "outcomes": [
+              {
+                "name": "Jackson St Tigers",
+                "price": 1.2
+              },
+              {
+                "name": "North Carolina A&T Aggies",
+                "price": 4.8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "86fea149b4e2d05e409a706113b15a4b",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2023-12-18T02:10:00Z",
+    "home_team": "Portland Trail Blazers",
+    "away_team": "Golden State Warriors",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-18T00:21:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-18T00:21:58Z",
+            "outcomes": [
+              {
+                "name": "Golden State Warriors",
+                "price": 1.49
+              },
+              {
+                "name": "Portland Trail Blazers",
+                "price": 2.7
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
