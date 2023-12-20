@@ -43,6 +43,7 @@ var queryOddType = graphql.NewObject(
 				Type:        graphql.NewList(oddsType),
 				Description: "Get odds list",
 				Resolve: func(p graphql.ResolveParams) (interface{}, error) {
+
 					return oddslist, nil
 				},
 			},

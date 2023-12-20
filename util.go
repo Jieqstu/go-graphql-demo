@@ -3,8 +3,11 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/joho/godotenv"
 	"io/ioutil"
+	"log"
 	"net/http"
+	"os"
 )
 
 func importJSONFromFile(fileName string, result interface{}) (isOK bool) {
@@ -43,4 +46,35 @@ func FetchOdds(url string) []odds {
 		return nil
 	}
 	return list
+}
+
+func FetchOdd(url string) *odds {
+	resp, err := http.Get(url)
+	if err != nil {
+		fmt.Println(err)
+		return nil
+	}
+	defer resp.Body.Close()
+
+	data, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		fmt.Println(err.Error())
+		return nil
+	}
+
+	odd := &odds{}
+	err = json.Unmarshal(data, odd)
+	if err != nil {
+		fmt.Println(err)
+		return nil
+	}
+	return odd
+}
+
+func GetApiKey() string {
+	if err := godotenv.Load(); err != nil {
+		log.Fatal(err)
+	}
+	apiKey := os.Getenv("API_KEY")
+	return apiKey
 }
