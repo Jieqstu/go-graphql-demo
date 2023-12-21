@@ -2,19 +2,34 @@
 
 package model
 
-type NewTodo struct {
-	Text   string `json:"text"`
-	UserID string `json:"userId"`
+import (
+	"time"
+)
+
+type Bookmaker struct {
+	Key        string    `json:"key"`
+	Title      string    `json:"title"`
+	LastUpdate time.Time `json:"last_update"`
+	Markets    []*Market `json:"markets,omitempty"`
 }
 
-type Todo struct {
-	ID   string `json:"id"`
-	Text string `json:"text"`
-	Done bool   `json:"done"`
-	User *User  `json:"user"`
+type Market struct {
+	Key        string     `json:"key"`
+	LastUpdate time.Time  `json:"last_update"`
+	Outcomes   []*Outcome `json:"outcomes,omitempty"`
 }
 
-type User struct {
-	ID   string `json:"id"`
-	Name string `json:"name"`
+type Odd struct {
+	ID           string       `json:"id"`
+	SportKey     string       `json:"sport_key"`
+	SportTitle   string       `json:"sport_title"`
+	CommenceTime time.Time    `json:"commence_time"`
+	HomeTeam     string       `json:"home_team"`
+	AwayTeam     string       `json:"away_team"`
+	Bookmakers   []*Bookmaker `json:"bookmakers,omitempty"`
+}
+
+type Outcome struct {
+	Name  string  `json:"name"`
+	Price float64 `json:"price"`
 }

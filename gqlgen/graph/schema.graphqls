@@ -2,27 +2,37 @@
 #
 # https://gqlgen.com/getting-started/
 
-type Todo {
-  id: ID!
-  text: String!
-  done: Boolean!
-  user: User!
+scalar Time
+scalar goField
+
+type Odd {
+  id: String!
+  sport_key: String!
+  sport_title: String!
+  commence_time: Time!
+  home_team: String!
+  away_team: String!
+  bookmakers: [Bookmaker!]
 }
 
-type User {
-  id: ID!
+type Bookmaker {
+  key: String!
+  title: String!
+  last_update: Time!
+  markets: [Market!]
+}
+
+type Market {
+  key: String!
+  last_update: Time!
+  outcomes: [Outcome!]
+}
+
+type Outcome {
   name: String!
+  price: Float!
 }
 
 type Query {
-  todos: [Todo!]!
-}
-
-input NewTodo {
-  text: String!
-  userId: String!
-}
-
-type Mutation {
-  createTodo(input: NewTodo!): Todo!
+  odds: [Odd!]!
 }

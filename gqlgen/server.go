@@ -10,7 +10,7 @@ import (
 	"github.com/go-graphql-demo/gqlgen/graph"
 )
 
-const defaultPort = "8080"
+const defaultPort = "9090"
 
 func main() {
 	port := os.Getenv("PORT")

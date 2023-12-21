@@ -6,26 +6,18 @@ package graph
 
 import (
 	"context"
-	"fmt"
 
 	"github.com/go-graphql-demo/gqlgen/graph/model"
+	"github.com/go-graphql-demo/gqlgen/util"
 )
 
-// CreateTodo is the resolver for the createTodo field.
-func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) (*model.Todo, error) {
-	panic(fmt.Errorf("not implemented: CreateTodo - createTodo"))
+// Odds is the resolver for the odds field.
+func (r *queryResolver) Odds(ctx context.Context) ([]*model.Odd, error) {
+	_ = util.ImportJSONFromFile("list.json", &r.odds)
+	return r.odds, nil
 }
-
-// Todos is the resolver for the todos field.
-func (r *queryResolver) Todos(ctx context.Context) ([]*model.Todo, error) {
-	panic(fmt.Errorf("not implemented: Todos - todos"))
-}
-
-// Mutation returns MutationResolver implementation.
-func (r *Resolver) Mutation() MutationResolver { return &mutationResolver{r} }
 
 // Query returns QueryResolver implementation.
 func (r *Resolver) Query() QueryResolver { return &queryResolver{r} }
 
-type mutationResolver struct{ *Resolver }
 type queryResolver struct{ *Resolver }
