@@ -1,4 +1,4 @@
-module go-graphql-demo
+module github.com/go-graphql-demo/graphql
 
 go 1.21
 
